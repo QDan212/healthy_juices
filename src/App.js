@@ -48,7 +48,13 @@ function App() {
         (oneCard) => 
         {
           return (
-            <Smiley juice={oneCard.title} />
+            <Smiley 
+              juice={oneCard.title}
+              healthBenefits={oneCard.}
+              seaMossInfoPage={}
+              image={} 
+            />
+
             
           )
         })
